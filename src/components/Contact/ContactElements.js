@@ -79,7 +79,7 @@ export const ContactTextarea = styled.textarea`
 `;
 
 export const ContactInputBtn = styled.input`
-  width: 100%;
+  width: 400px;
   padding: 15px;
   border: none;
   outline: none;
@@ -118,6 +118,11 @@ export const ContactP = styled.p`
   max-width: 900px;
   font-size: 1rem;
   text-align: center;
+  /* padding: 0 50px; */
+
+  @media screen and (max-width: 480px) {
+    padding: 0 30px;
+  }
 `;
 
 export const ConactIframe = styled.div`
