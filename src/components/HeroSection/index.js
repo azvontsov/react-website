@@ -21,17 +21,18 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer>
+    <HeroContainer id="home">
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <HeroH1>Architecture</HeroH1>
         <HeroP>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ex
-          vitae, laboriosam dignissimos quae assumenda nulla. Ex earum ducimus
-          optio sapiente culpa illum itaque fugiat, dolores delectus sequi
-          doloremque suscipit!
+          At Archilovers, we specialize in luxury. <br />
+          Whether it's a commercial space in downtown for your thriving
+          business, or your custom dream home where your family will make
+          memories, our commercial and residential architects will bring your
+          vision to life.
         </HeroP>
         <HeroBtnWrapper>
           <Button
@@ -40,6 +41,10 @@ const HeroSection = () => {
             onMouseLeave={onHover}
             primary="true"
             dark="true"
+            smooth={true}
+            duration={500}
+            spy={true}
+            offset={-80}
           >
             Get Started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>

@@ -1,4 +1,5 @@
 import React from "react";
+import { animateScroll as scroll } from "react-scroll";
 import {
   FooterContainer,
   FooterWrap,
@@ -18,6 +19,10 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -48,7 +53,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Archilovers</SocialLogo>
+            <SocialLogo onClick={toggleHome} to="/">
+              Archilovers
+            </SocialLogo>
             <WebsiteRights>
               Archilovers{new Date().getFullYear} All rights reserved
             </WebsiteRights>

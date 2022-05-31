@@ -20,18 +20,34 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Rendering</ServicesH2>
-            <ServicesP>We help you with...</ServicesP>
+            <ServicesH2>Residential Architecture</ServicesH2>
+            <ServicesP>
+              Residential Architecture While well-known for high-end residential
+              design, we also provide design services for additions and
+              renovations, comparing the value of a total renovation versus a
+              full or partial demolition while listening to your ideas, goals
+              and financial objectives.
+            </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Surveying</ServicesH2>
-            <ServicesP>We help you with...</ServicesP>
+            <ServicesH2>Site Planning</ServicesH2>
+            <ServicesP>
+              We combine regulatory requirements with topography, access,
+              existing vegetation and solar orientation to determine the best
+              use of your site, whether you are looking at a new location or
+              want to determine growth patterns of your current location.
+            </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon3} />
-            <ServicesH2>Laser Scanning</ServicesH2>
-            <ServicesP>We help you with...</ServicesP>
+            <ServicesH2>Interior Design</ServicesH2>
+            <ServicesP>
+              If your current commercial interior is tired or outdated, we will
+              be happy to help you update your corporate image. We also design
+              functional, attractive interiors for new builds and up-fits,
+              selecting finishes, furniture and fixtures.
+            </ServicesP>
           </ServicesCard>
         </ServicesWrapper>
       </ServicesContainer>
