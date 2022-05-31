@@ -18,13 +18,13 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="about" onClick={toggle}>
-            About
+          <SidebarLink to="residential" onClick={toggle}>
+            Residential
           </SidebarLink>
         </SidebarMenu>
         <SidebarMenu>
-          <SidebarLink to="discover" onClick={toggle}>
-            Discover
+          <SidebarLink to="commercial" onClick={toggle}>
+            Commercial
           </SidebarLink>
         </SidebarMenu>
         <SidebarMenu>
@@ -33,8 +33,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           </SidebarLink>
         </SidebarMenu>
         <SidebarMenu>
-          <SidebarLink to="signup" onClick={toggle}>
-            Sign up
+          <SidebarLink to="contact" onClick={toggle}>
+            Contact
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
