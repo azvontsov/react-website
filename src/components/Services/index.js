@@ -1,6 +1,6 @@
 import React from "react";
 import Icon1 from "../../images/house1.svg";
-import Icon2 from "../../images/svg-2.svg";
+import Icon2 from "../../images/commercial.svg";
 import Icon3 from "../../images/svg-3.svg";
 import Icon4 from "../../images/svg-4.svg";
 import {
@@ -32,7 +32,7 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
-            <ServicesH2>Comercial</ServicesH2>
+            <ServicesH2>Commercial</ServicesH2>
             <ServicesP>
               Residential Architecture While well-known for high-end residential
               design, we also provide design services for additions and

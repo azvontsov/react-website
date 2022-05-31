@@ -14,6 +14,7 @@ import {
   WebsiteRights,
   SocialIcons,
   SocialIconLink,
+  SocialIconP,
 } from "./FooterElements";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
@@ -29,16 +30,10 @@ const Footer = () => {
         <FooterLinksContainer>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to="/">How it works</FooterLink>
-              <FooterLink to="/">Testimonials</FooterLink>
-              <FooterLink to="/">Careers</FooterLink>
-              <FooterLink to="/">Terms of service</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
-              <FooterLinkTitle>Contact us</FooterLinkTitle>
-              <FooterLink to="/">Contact</FooterLink>
-              <FooterLink to="/">Destinations</FooterLink>
+              <FooterLinkTitle>Discover</FooterLinkTitle>
+              <FooterLink to="/">All About Our Firm & Team</FooterLink>
+              <FooterLink to="/">More About Our Services</FooterLink>
+              <FooterLink to="/">Request Additional Information</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
@@ -49,6 +44,12 @@ const Footer = () => {
               <FooterLink to="/">GitHub</FooterLink>
               <FooterLink to="/">Youtube</FooterLink>
             </FooterLinkItems>
+            <FooterLinkItems>
+              <FooterLinkTitle>Location</FooterLinkTitle>
+              <SocialIconP to="/">4949 Connecticute Ave NW</SocialIconP>
+              <SocialIconP to="/">Washington, DC</SocialIconP>
+              <SocialIconP to="/">(202) 948-4734</SocialIconP>
+            </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
@@ -57,7 +58,8 @@ const Footer = () => {
               Archilovers
             </SocialLogo>
             <WebsiteRights>
-              Archilovers{new Date().getFullYear} All rights reserved
+              © {new Date().getFullYear()} All rights reserved | Digital
+              Marketing by azvontsov
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" area-label="Facebook">
