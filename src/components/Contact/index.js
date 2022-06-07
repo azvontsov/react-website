@@ -73,7 +73,10 @@ const Services = () => {
             <ContactH3>(202) 948-4734</ContactH3>
             <ContactH3>4849 Connecticute Ave NW</ContactH3>
             <ContactH3>Washington, DC</ContactH3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.6822621212943!2d-77.06835131184957!3d38.95248655678193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9b82886a817%3A0x320db49c9deb5105!2s4849%20Connecticut%20Ave%20NW%2C%20Washington%2C%20DC%2020008!5e0!3m2!1sen!2sus!4v1654032991079!5m2!1sen!2sus"></iframe>
+            <iframe
+              title="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1250.6822621212943!2d-77.06835131184957!3d38.95248655678193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c9b82886a817%3A0x320db49c9deb5105!2s4849%20Connecticut%20Ave%20NW%2C%20Washington%2C%20DC%2020008!5e0!3m2!1sen!2sus!4v1654032991079!5m2!1sen!2sus"
+            ></iframe>
           </ContactInputWrap>
         </ContactWrapper>
       </ContactContainer>
