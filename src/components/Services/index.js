@@ -1,7 +1,8 @@
 import React from "react";
-import Icon1 from "../../images/svg-1.svg";
-import Icon2 from "../../images/svg-2.svg";
+import Icon1 from "../../images/house1.svg";
+import Icon2 from "../../images/commercial.svg";
 import Icon3 from "../../images/svg-3.svg";
+import Icon4 from "../../images/svg-4.svg";
 import {
   ServicesCard,
   ServicesContainer,
@@ -20,7 +21,7 @@ const Services = () => {
         <ServicesWrapper>
           <ServicesCard>
             <ServicesIcon src={Icon1} />
-            <ServicesH2>Residential Architecture</ServicesH2>
+            <ServicesH2>Residential</ServicesH2>
             <ServicesP>
               Residential Architecture While well-known for high-end residential
               design, we also provide design services for additions and
@@ -31,6 +32,17 @@ const Services = () => {
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
+            <ServicesH2>Commercial</ServicesH2>
+            <ServicesP>
+              Residential Architecture While well-known for high-end residential
+              design, we also provide design services for additions and
+              renovations, comparing the value of a total renovation versus a
+              full or partial demolition while listening to your ideas, goals
+              and financial objectives.
+            </ServicesP>
+          </ServicesCard>
+          <ServicesCard>
+            <ServicesIcon src={Icon3} />
             <ServicesH2>Site Planning</ServicesH2>
             <ServicesP>
               We combine regulatory requirements with topography, access,
@@ -40,7 +52,7 @@ const Services = () => {
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
-            <ServicesIcon src={Icon3} />
+            <ServicesIcon src={Icon4} />
             <ServicesH2>Interior Design</ServicesH2>
             <ServicesP>
               If your current commercial interior is tired or outdated, we will

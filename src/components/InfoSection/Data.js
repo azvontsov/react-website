@@ -1,13 +1,13 @@
 export const homeObjOne = {
-  id: "about",
+  id: "residential",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Residential buildings",
+  topLine: "Residential",
   headline: "DC House 1",
   description:
-    "This jungle hideaway on the cusp of Rio de Janeiro's Tijuca National Park was built for clients looking to retreat from the city's urban core to enjoy books, art, and, most importantly, the beauty of the natural landscape. The home is intentionally small in scale, and its architecture provides a minimal protective “uniform” to support the clients' preferred lifestyle and to foster deep connections with the surrounding ecology.",
-  buttonLabel: "Get Started",
+    "The homes we design for our clients are more than places to live, they are places where families gather, memories are made, and intimate time is shared. Everyone has their own thoughts on what their ideal home looks like, and the passion of our luxury home architects is bringing these images to life.",
+  buttonLabel: "VIEW GALLERY",
   imgStart: false,
   img: require("../../images/house1.svg"),
   alt: "House",
@@ -17,36 +17,18 @@ export const homeObjOne = {
 };
 
 export const homeObjTwo = {
-  id: "discover",
+  id: "commercial",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Residential buildings",
+  topLine: "Commercial",
   headline: "DC House 2",
   description:
-    "This jungle hideaway on the cusp of Rio de Janeiro's Tijuca National Park was built for clients looking to retreat from the city's urban core to enjoy books, art, and, most importantly, the beauty of the natural landscape. The home is intentionally small in scale, and its architecture provides a minimal protective “uniform” to support the clients' preferred lifestyle and to foster deep connections with the surrounding ecology.",
-  buttonLabel: "Get Started",
+    "Your building or office space is a reflection of your business. It should speak to the high quality of services and products awaiting your customers when they walk through the door. Commercial design shouldn’t be synonymous with mediocrity. Just because we have designed bank branches and medical offices doesn’t mean we roll out the same blueprint on every commercial project or upfit we are invited to design. Our years of experience don’t dictate your project’s design, they only serve to enhance your vision.",
+  buttonLabel: "VIEW GALLERY",
   imgStart: true,
-  img: require("../../images/svg-2.svg"),
+  img: require("../../images/commercial.svg"),
   alt: "House2",
-  dark: false,
-  primary: false,
-  darkText: true,
-};
-
-export const homeObjThree = {
-  id: "signup",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Residential buildings",
-  headline: "DC House 3",
-  description:
-    "This jungle hideaway on the cusp of Rio de Janeiro's Tijuca National Park was built for clients looking to retreat from the city's urban core to enjoy books, art, and, most importantly, the beauty of the natural landscape. The home is intentionally small in scale, and its architecture provides a minimal protective “uniform” to support the clients' preferred lifestyle and to foster deep connections with the surrounding ecology.",
-  buttonLabel: "Go Start ",
-  imgStart: false,
-  img: require("../../images/svg-3.svg"),
-  alt: "House3",
   dark: false,
   primary: false,
   darkText: true,
