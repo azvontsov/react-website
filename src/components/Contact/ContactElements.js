@@ -65,7 +65,7 @@ export const ContactInput = styled.input`
 `;
 export const ContactTextarea = styled.textarea`
   width: 100%;
-  height: 100px;
+  height: 180px;
   padding: 10px;
   border: none;
   outline: none;
@@ -79,7 +79,7 @@ export const ContactTextarea = styled.textarea`
 `;
 
 export const ContactInputBtn = styled.input`
-  width: 400px;
+  width: 350px;
   padding: 15px;
   border: none;
   outline: none;
