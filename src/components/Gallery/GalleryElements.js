@@ -60,15 +60,20 @@ export const GalleryTextWrapper = styled.div`
   }
 `;
 
-export const GalleryLinks = styled(LinkScroll)`
+export const GalleryBtn = styled.button`
   color: #fff;
+  background: transparent;
+  border: none;
   display: flex;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
-  height: 100%;
+  font-size: 1.1rem;
   cursor: pointer;
 
+  &:hover {
+    color: #01bf71;
+  }
   &.active {
     color: #01bf71;
   }
