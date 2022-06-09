@@ -4,7 +4,7 @@ import {
   GalleryWrap,
   Icon,
   GalleryImg,
-  GalleryLinks,
+  GalleryBtn,
   GalleryTextWrapper,
 } from "./GalleryElements";
 import images from "./images";
@@ -23,43 +23,49 @@ const Gallery = () => {
 
   const sortedAndSearchedImages = useMemo(() => {
     return sortedImages.filter((image) => {
-      image.key && image.key.toLowerCase().includes(filter.query.toLowerCase());
+      return (
+        image.key &&
+        image.key.toLowerCase().includes(filter.query.toLowerCase())
+      );
     });
   }, [filter.query, sortedImages]);
+
+  console.log("sorted", sortedImages);
+  console.log("sorted&searched", sortedAndSearchedImages);
 
   return (
     <>
       <Container>
         <Icon to="/">Archilovers</Icon>
         <GalleryTextWrapper>
-          <GalleryLinks onClick={(e) => setFilter({ ...filter, query: "" })}>
-            All
-          </GalleryLinks>
-
-          <button
-            onClick={(e) => setFilter({ ...filter, query: "residential" })}
+          <GalleryBtn
+            onClick={(e) =>
+              setFilter({
+                ...filter,
+                query: "",
+              })
+            }
           >
-            residential
-          </button>
-
-          <GalleryLinks
+            All
+          </GalleryBtn>
+          <GalleryBtn
             onClick={(e) => setFilter({ ...filter, query: "residential" })}
           >
             Residential
-          </GalleryLinks>
-          <GalleryLinks
+          </GalleryBtn>
+          <GalleryBtn
             onClick={(e) => setFilter({ ...filter, query: "commercial" })}
           >
             Commercial
-          </GalleryLinks>
-          <GalleryLinks
+          </GalleryBtn>
+          <GalleryBtn
             onClick={(e) => setFilter({ ...filter, query: "interiors" })}
           >
             Interiors
-          </GalleryLinks>
+          </GalleryBtn>
         </GalleryTextWrapper>
         <GalleryWrap>
-          {images.map((item, i) => (
+          {sortedAndSearchedImages.map((item, i) => (
             <GalleryImg key={i} src={item.img} />
           ))}
         </GalleryWrap>

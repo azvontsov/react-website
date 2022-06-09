@@ -44,7 +44,7 @@ const images = [
     img: "https://i.imgur.com/PUwD8pV.png",
   },
   {
-    key: "interior",
+    key: "interiors",
     img: "https://i.imgur.com/ek28h0Q.jpg",
   },
   {
@@ -64,7 +64,7 @@ const images = [
     img: "https://i.imgur.com/N9vLpqd.png",
   },
   {
-    key: "interior",
+    key: "interiors",
     img: "https://i.imgur.com/43yC9Wt.png",
   },
   {
@@ -88,7 +88,7 @@ const images = [
     img: "https://i.imgur.com/BXINcgx.png",
   },
   {
-    key: "commercial",
+    key: "interiors",
     img: "https://i.imgur.com/gSYpjP3.jpg",
   },
   {
