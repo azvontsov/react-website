@@ -1,27 +1,107 @@
 const images = [
   {
-    key: 1,
-    title: "Delegation",
-    content:
-      "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem",
+    key: "commercial",
+    img: "https://i.imgur.com/e2RrQAh.png",
   },
   {
-    key: 2,
-    title: "Loops",
-    content:
-      "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat.",
+    key: "residential",
+    img: "https://i.imgur.com/gawfJK6.png",
   },
   {
-    key: 3,
-    title: "Arrays",
-    content:
-      "Q. Why did the programmer quit his job? A. Because he didn't get arrays.",
+    key: "residential",
+    img: "https://i.imgur.com/bs5WizA.png",
   },
   {
-    key: 4,
-    title: "Hardware vs. Software",
-    content:
-      "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software.",
+    key: "residential",
+    img: "https://i.imgur.com/wJULtR1.jpg",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/DUYscUQ.png",
+  },
+  {
+    key: "interior",
+    img: "https://i.imgur.com/kOPNwcV.png",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/uelGCQA.png ",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/VzQuNF0.jpg",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/wIPUReA.jpg",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/pNBzio1.jpg",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/PUwD8pV.png",
+  },
+  {
+    key: "interior",
+    img: "https://i.imgur.com/ek28h0Q.jpg",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/rAJGXgi.png",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/UzIpbzC.png",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/dvoBr1s.png",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/N9vLpqd.png",
+  },
+  {
+    key: "interior",
+    img: "https://i.imgur.com/43yC9Wt.png",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/o7kptmW.png",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/4NXkTKK.png",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/YynNv4I.jpg",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/uKobaFp.png",
+  },
+  {
+    key: "residential",
+    img: "https://i.imgur.com/BXINcgx.png",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/gSYpjP3.jpg",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/UmqtNbC.jpg",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/XwPvZ9K.png",
+  },
+  {
+    key: "commercial",
+    img: "https://i.imgur.com/wGRPJ79.png",
   },
 ];
 
