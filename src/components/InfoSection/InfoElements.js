@@ -89,6 +89,11 @@ export const BtnWrap = styled.div`
 export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
+
+  @media screen and (max-width: 768px) {
+    max-width: 400px;
+    height: 70%;
+  }
 `;
 
 export const Img = styled.img`
@@ -102,7 +107,7 @@ export const InfoBtn = styled.nav`
   align-items: center;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    /* display: none; */
   }
 `;
 
