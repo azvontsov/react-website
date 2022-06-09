@@ -23,22 +23,20 @@ const Services = () => {
             <ServicesIcon src={Icon1} />
             <ServicesH2>Residential</ServicesH2>
             <ServicesP>
-              Residential Architecture While well-known for high-end residential
-              design, we also provide design services for additions and
-              renovations, comparing the value of a total renovation versus a
-              full or partial demolition while listening to your ideas, goals
-              and financial objectives.
+              While well-known for high-end residential design, we also provide
+              design services for additions and renovations, comparing the value
+              of a total renovation versus a full or partial demolition while
+              listening to your ideas, goals and financial objectives.
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
             <ServicesIcon src={Icon2} />
             <ServicesH2>Commercial</ServicesH2>
             <ServicesP>
-              Residential Architecture While well-known for high-end residential
-              design, we also provide design services for additions and
-              renovations, comparing the value of a total renovation versus a
-              full or partial demolition while listening to your ideas, goals
-              and financial objectives.
+              As business owners, we are acutely aware of the need for efficient
+              and effective space to ensure the prosperity of your business. In
+              addition to general office space, we have experience in medical,
+              laboratory, dental, banking, and resort design
             </ServicesP>
           </ServicesCard>
           <ServicesCard>
