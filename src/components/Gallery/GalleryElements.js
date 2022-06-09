@@ -62,7 +62,6 @@ export const GalleryTextWrapper = styled.div`
 
   @media screen and (max-width: 428px) {
     margin-left: 0;
-    padding: 0.5rem;
   }
 `;
 

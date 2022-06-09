@@ -68,7 +68,7 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? "#f7f8fa" : "#010606")};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 428px) {
     font-size: 32px;
   }
 `;
@@ -90,7 +90,7 @@ export const ImgWrap = styled.div`
   max-width: 555px;
   height: 100%;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 428px) {
     max-width: 400px;
     height: 70%;
   }
