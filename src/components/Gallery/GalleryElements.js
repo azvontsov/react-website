@@ -18,7 +18,7 @@ export const GalleryWrap = styled.div`
   @media screen and (max-width: 1000px) {
     max-width: 900px;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 428px) {
     grid-template-columns: 1fr;
   }
 `;
@@ -32,6 +32,11 @@ export const GalleryImg = styled.img`
     transform: scale(1.02);
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 428px) {
+    height: 200px;
+    width: 400px;
   }
 `;
 
@@ -55,8 +60,9 @@ export const GalleryTextWrapper = styled.div`
   padding: 1rem;
   margin-left: 4rem;
 
-  @media screen and (max-width: 768px) {
-    margin-left: 1rem;
+  @media screen and (max-width: 428px) {
+    margin-left: 0;
+    padding: 0.5rem;
   }
 `;
 
