@@ -68,7 +68,7 @@ export const HeroH1 = styled.h1`
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 428px) {
     font-size: 32px;
   }
 `;
@@ -84,7 +84,7 @@ export const HeroP = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 24px;
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 428px) {
     font-size: 18px;
   }
 `;

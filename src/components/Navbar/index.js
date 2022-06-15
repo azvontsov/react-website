@@ -10,6 +10,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  NavLinks2,
 } from "./NavbarElements";
 import { animateScroll as scroll } from "react-scroll";
 
@@ -44,6 +45,17 @@ const Navbar = ({ toggle }) => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
+              <NavLinks2
+                to="/gallery"
+                smooth={true}
+                duration={500}
+                spy={true}
+                offset={-80}
+              >
+                Portfolio
+              </NavLinks2>
+            </NavItem>
+            <NavItem>
               <NavLinks
                 to="residential"
                 smooth={true}
@@ -65,6 +77,7 @@ const Navbar = ({ toggle }) => {
                 Commercial
               </NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks
                 to="services"
@@ -82,7 +95,7 @@ const Navbar = ({ toggle }) => {
                 smooth={true}
                 duration={500}
                 spy={true}
-                offset={-80}
+                offset={-100}
               >
                 Contact
               </NavLinks>

@@ -27,6 +27,10 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
+
+  @media screen and (max-width: 428px) {
+    max-width: 400px;
+  }
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -73,6 +77,19 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkScroll)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &.active {
+    border-bottom: 5px solid #01bf71;
+  }
+`;
+export const NavLinks2 = styled(LinkR)`
   color: #fff;
   display: flex;
   align-items: center;
